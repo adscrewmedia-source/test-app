@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   const [activeBrand, setActiveBrand] = useState<number | null>(null);
 
   const brands = [
-    { name: "NIKE", result: "2.4x ROAS", industry: "Sportswear", color: "from-orange-500" },
+    { name: "TETS", result: "2.4x ROAS", industry: "Sportswear", color: "from-orange-500" },
     { name: "REVOLUT", result: "+40% LTV", industry: "Fintech", color: "from-blue-400" },
     { name: "AIRBNB", result: "12% CAC ↓", industry: "Travel", color: "from-rose-500" },
     { name: "HYPERICE", result: "$2M Scaled", industry: "Wellness", color: "from-emerald-400" },
